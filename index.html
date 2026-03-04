@@ -1,105 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <title>Stan P - CST336 Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background: #333;
-            color: white;
-            padding: 1rem 2rem;
-            text-align: center;
-        }
-
-        nav {
-            background: #444;
-            padding: 0.5rem;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            padding: 2rem;
-            max-width: 1000px;
-            margin: auto;
-            background: white;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #333;
-            color: white;
-            margin-top: 2rem;
-        }
-
-        button {
-            padding: 10px 15px;
-            border: none;
-            background: #007BFF;
-            color: white;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-
-        button:hover {
-            background: #0056b3;
-        }
-    </style>
+    <link href="menu.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>A simple HTML starter template</p>
+        <h1 class="rochester-regular">Stan P</h1>
+        <p>CST336 – Internet Programming</p>
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-
     <div class="container">
-        <h2>About This Page</h2>
-        <p>
-            This is a basic example of an index.html page. You can modify the
-            content, styles, and layout to match your project needs.
-        </p>
 
-        <button onclick="showMessage()">Click Me</button>
-        <p id="message"></p>
+        <h2>Homework</h2>
+        <ul>
+            <li><a href="hw1/index.html">Homework 1</a></li>
+            <li><a href="hw2/index.html">Homework 2</a></li>
+            <li><a href="hw3/index.html">Homework 3</a></li>
+            <li><a href="hw4/index.html">Homework 4</a></li>
+        </ul>
+
+        <h2>Labs</h2>
+        <ul>
+            <li><a href="lab1/index.html">Lab 1</a></li>
+            <li><a href="lab2/index.html">Lab 2</a></li>
+            <li><a href="lab3/index.html">Lab 3</a></li>
+        </ul>
+
     </div>
 
     <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
+        © 2026 Stan P | CSUMB
     </footer>
 
-    <script>
-        function showMessage() {
-            document.getElementById("message").textContent =
-                "You clicked the button! JavaScript is working.";
-        }
-    </script>
-
 </body>
+
 </html>
