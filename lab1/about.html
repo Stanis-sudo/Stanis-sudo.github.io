@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,15 +16,37 @@
         <h1>Stan P</h1>
     </header>
     <hr>
-    <nav>
+    <nav class="coming-soon-regular">
         <a href="index.html">Home</a>
         <a href="about.html" class="selected">About</a>
         <a href="contact.html">Contact</a>
     </nav>
-    <br><br>
-    <main>
-
-    </main>
+    <div id="content">
+        <table>
+            <tr id="table-header">
+                <td><strong>Programming Language</strong></td>
+                <td><strong>Years Experience</strong></td>
+            </tr>
+            <tr class="table-row">
+                <td>C++</td>
+                <td>5</td>
+            </tr>
+            <tr class="table-row">
+                <td>C#</td>
+                <td>2</td>
+            </tr>
+            <tr class="table-row">
+                <td>Python</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <ul>
+            <li><span class="hobby">Reading</span>: I enjoy reading fiction and mystery novels, especially on quiet evenings.</li>
+            <li><span class="hobby">Basketball</span>: I play with friends twice a week and usually play as a guard.</li>
+            <li><span class="hobby">Traveling</span>: I like exploring new cities and trying different kinds of food.</li>
+            <li><span class="hobby">Technology</span>: I spend time building small projects and learning new coding skills.</li>
+        </ul>
+    </div>
     <hr>
     <footer>
         <figure><img src="img/csumblogo-2.png" alt="CSUMB Logo"></figure>

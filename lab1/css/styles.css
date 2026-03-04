@@ -1,12 +1,37 @@
+html,
 body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     background-color: black;
-    color:whitesmoke;
+    color: whitesmoke;
+    overflow: hidden;
+    /* font settings */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 h1 {
     color: rgb(8, 219, 103);
-    font-family:  'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
+    margin: 0px;
+    padding-top: 0.5em;
+}
+
+header,
+nav,
+footer {
+    flex: 0 0 auto; /* fixed size */
+    padding: 5px;
 }
 
 header,
@@ -17,11 +42,25 @@ footer {
 }
 
 main {
+    flex: 1; /* takes remaining space */
+    overflow-y: auto; /* ONLY this scrolls */
+    padding: 1em;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family:Arial, Helvetica, sans-serif;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #818080;
+  margin: 10px 0;
+}
+
+nav {
+    margin-bottom: 1em;
 }
 
 nav a {
@@ -29,7 +68,6 @@ nav a {
     padding: 15px;
     padding-bottom: 4px;
     font-size: 1.8em;
-    font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: aliceblue;
 }
@@ -57,7 +95,6 @@ nav a:hover::after {
 
 nav a.selected {
     color: cadetblue;
-    font-weight: bold;
 }
 
 nav a.selected:hover {
@@ -73,7 +110,63 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:beige;
+    color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orchid;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    width: 500px;
+    margin: 1.5em auto;
+    text-align: left;
+}
+
+.hobby {
+    color: yellowgreen;
+}
+
+.coming-soon-regular {
+    font-family: "Coming Soon", cursive;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.frame {
+    flex: 1; /* takes remaining space */
+    overflow-y: hidden;
+    margin: 0 auto;
+}
+
+#content {
+    flex: 1; /* takes remaining space */
+    overflow-y: auto; /* ONLY this scrolls */
+    padding: 1em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+iframe {
+    height: 100%;
+    border: none;
 }
