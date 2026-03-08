@@ -1,0 +1,104 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0.3em;
+    /* background-color: black; */
+    color: royalblue;
+    overflow: hidden;
+    /* font settings */
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+}
+
+main {
+    text-align: initial;
+
+    flex: 1;
+    /* takes remaining space */
+    overflow-y: auto;
+    /* ONLY this scrolls */
+    padding: 1em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main h1 {
+    text-align: center;
+    color: royalblue;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    background-color: darkslategray;
+    border: 0;
+    height: 2px;
+    margin: 1em 0 0 0;
+}
+
+main .main-area {
+    display: flex;
+    justify-content: center;
+}
+
+main .main-area-left {
+    flex: 1;
+}
+
+main .main-area-center {
+    flex: 2;
+    text-align: justify;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-area-right {
+    flex: 1;
+}
+
+main .main-area-center>h2,
+main .main-area-center .content-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main .main-area-center>h2 {
+    text-align: center;
+    color: royalblue;
+}
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content-box ul {
+    margin: 0.5rem 0 1.2rem;
+    padding-left: 1.25rem;
+    list-style-position: inside;
+}
+
+.content-box li {
+    margin: 0.25rem 0;
+}
+
+.content-list {
+    width: fit-content;
+    margin: 0 auto;
+}
