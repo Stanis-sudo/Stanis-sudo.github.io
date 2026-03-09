@@ -49,8 +49,16 @@ section h2 {
 
 }
 
+main section .padding-top {
+  margin-top: 15px;
+}
+
 .small-text {
   font-size: 0.8em;
+}
+
+.bigger-font {
+  font-size: 1.5em;
 }
 .scroll-circle {
   position: absolute;
