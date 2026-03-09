@@ -42,8 +42,10 @@ section img {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-section h4 {
+section h2 {
   margin: 0.3em 0;
+  font-size: 1.2em;
+  color: black !important;
 
 }
 
