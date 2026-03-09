@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Components</title>
+    <link href="css/page.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/components-content.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="red-hat-font">
+        <a href="../index.html"><img src="img/g-logo-48x48.png" alt="Website logo"></a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="components.html" class="selected">OS Components</a>
+            <a href="os-types.html">OS Types</a>
+            <a href="popular-os.html">Popular OS</a>
+        </div>
+    </nav>
+    <main>
+        <section id="intro" class="first-section">
+            <h1>OS Components (Intro)</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>Operating system components are the major parts that work together to run programs, manage hardware, and keep everything organized and secure.</p>
+                    <img src="img/components.png" alt="OS Components">
+                    <p>On this page, each section explains one key component you'll find in most modern operating systems.</p>
+                    <!-- <a href="#core" class="scroll-btn">Start Learning ↓</a> -->
+                </div>
+                <div class="main-area-right">
+                    <a href="#core" class="scroll-circle" aria-label="Scroll to next section">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 1 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z" />
+                        </svg>
+                    </a>
+                </div>
+        </section>
+        <section id="core" class="second-section">
+            <h1>Kernel (The Core)</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>The kernel is the core of the operating system. It runs all the time and controls the most important tasks.</p>
+                    <img src="img/kernel.png" alt="OS Kernel">
+                    <h4>What it does:</h4>
+                    <ul class="no-margin">
+                        <li>Communicates with hardware (CPU, RAM, storage)</li>
+                        <li>Decides which program gets CPU time</li>
+                        <li>Manages memory usage</li>
+                        <li>Handles system calls (requests from programs)</li>
+                    </ul>
+                    <p><strong>Why it matters: </strong>If the kernel fails, the whole system can crash.</p>
+
+                </div>
+                <div class="main-area-right">
+
+                    <!-- Go to Top (Double Up Arrow) -->
+                    <a href="#intro" class="scroll-circle go-to-top" aria-label="Go to top">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 7.5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 9.9l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+
+                    <!-- Go Down (Single Arrow) -->
+                    <a href="#processes" class="scroll-circle" aria-label="Scroll down">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 1 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z" />
+                        </svg>
+                    </a>
+
+                </div>
+        </section>
+        <section id="processes" class="third-section">
+            <h1>Process Management</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>A process is a program that is currently running (like a browser, game, or music app).</p>
+                    <img src="img/process.png" alt="OS Process Management">
+                    <h4>What process management does:</h4>
+                    <ul class="no-margin">
+                        <li>Starts and stops processes</li>
+                        <li>Schedules CPU time (multitasking)</li>
+                        <li>Allows processes to communicate when needed</li>
+                        <li>Prevents one process from blocking everything else</li>
+                    </ul>
+                    <p><strong>Example: </strong>You can listen to music while browsing the web because the OS schedules both tasks.</p>
+                </div>
+                <div class="main-area-right">
+                    <a href="#intro" class="scroll-circle go-to-top" aria-label="Go to top">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <!-- first arrow -->
+                            <path d="M12 5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 7.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                            <!-- second arrow -->
+                            <path d="M12 11c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 13.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <a href="#core" class="scroll-circle go-back" aria-label="Go up">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 7.5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 9.9l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <!-- Go Down (Single Arrow) -->
+                    <a href="#memory" class="scroll-circle" aria-label="Scroll down">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 1 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="memory" class="fourth-section">
+            <h1>Memory Management</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>Memory management controls how RAM is used so programs can run smoothly.</p>
+                    <img src="img/memory.png" alt="OS Memory Management">
+                    <h4>What it does:</h4>
+                    <ul class="no-margin">
+                        <li>Gives memory to programs when they start</li>
+                        <li>Takes memory back when they close</li>
+                        <li>Uses virtual memory to extend RAM using storage</li>
+                        <li>Protects memory so apps don't overwrite each other</li>
+                    </ul>
+                    <p><strong>Example: </strong>
+                        If too many apps are open, the OS may slow down because RAM is full.</p>
+                </div>
+                <div class="main-area-right">
+                    <a href="#intro" class="scroll-circle go-to-top" aria-label="Go to top">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <!-- first arrow -->
+                            <path d="M12 5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 7.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                            <!-- second arrow -->
+                            <path d="M12 11c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 13.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <a href="#processes" class="scroll-circle go-back" aria-label="Go up">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 7.5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 9.9l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <!-- Go Down (Single Arrow) -->
+                    <a href="#file" class="scroll-circle" aria-label="Scroll down">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 1 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="file" class="fifth-section">
+            <h1>File System</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>The file system organizes and stores data on disks (SSD/HDD).</p>
+                    <img src="img/file.png" alt="OS Memory Management">
+                    <h4>What it does:</h4>
+                    <ul class="no-margin">
+                        <li>Creates, deletes, and organizes files/folders</li>
+                        <li>Keeps track of where files are stored</li>
+                        <li>Controls permissions (who can access files)</li>
+                        <li>Helps prevent data corruption</li>
+                    </ul>
+                    <p><strong>Examples of file systems: </strong>NTFS (Windows), APFS (macOS), and ext4 (Linux)</p>
+                </div>
+                <div class="main-area-right">
+                    <a href="#intro" class="scroll-circle go-to-top" aria-label="Go to top">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <!-- first arrow -->
+                            <path d="M12 5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 7.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                            <!-- second arrow -->
+                            <path d="M12 11c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 13.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <a href="#memory" class="scroll-circle go-back" aria-label="Go up">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 7.5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 9.9l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <!-- Go Down (Single Arrow) -->
+                    <a href="#device" class="scroll-circle" aria-label="Scroll down">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 1 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="device" class="sixth-section">
+            <h1>Device & I/O Management</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>Computers use many devices: keyboard, mouse, display, USB, printer, Wi-Fi card, etc.</p>
+                    <img src="img/device.png" alt="OS Device & I/O Management">
+                    <h4>What this component does:</h4>
+                    <ul class="no-margin">
+                        <li>Controls input/output (I/O) devices</li>
+                        <li>Uses device drivers to talk to hardware</li>
+                        <li>Manages data transfer between devices and memory</li>
+                        <li>Buffers data to avoid delays</li>
+                    </ul>
+                    <p><strong>Example: </strong>A printer driver helps the OS translate your document into something the printer understands.
+                    </p>
+                </div>
+                <div class="main-area-right">
+                    <a href="#intro" class="scroll-circle go-to-top" aria-label="Go to top">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <!-- first arrow -->
+                            <path d="M12 5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 7.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                            <!-- second arrow -->
+                            <path d="M12 11c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 13.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <a href="#file" class="scroll-circle go-back" aria-label="Go up">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 7.5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 9.9l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <!-- Go Down (Single Arrow) -->
+                    <a href="#interface" class="scroll-circle" aria-label="Scroll down">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 1 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="interface" class="seventh-section">
+            <h1>User Interface</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>The OS provides a way for users to interact with the computer.</p>
+                    <img src="img/interface.png" alt="OS User Interface">
+                    <h4>Types of interfaces:</h4>
+                    <ul class="no-margin">
+                        <li>GUI (Graphical User Interface): windows, icons, menus (Windows/macOS)</li>
+                        <li>CLI (Command Line Interface): text commands (Terminal / Command Prompt)</li>
+                    </ul>
+                    <p><strong>Why it matters: </strong>It makes the system usable and controls what users can do.</p>
+                </div>
+                <div class="main-area-right">
+                    <a href="#intro" class="scroll-circle go-to-top" aria-label="Go to top">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <!-- first arrow -->
+                            <path d="M12 5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 7.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                            <!-- second arrow -->
+                            <path d="M12 11c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 13.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <a href="#device" class="scroll-circle go-back" aria-label="Go up">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 7.5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 9.9l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <!-- Go Down (Single Arrow) -->
+                    <a href="#security" class="scroll-circle" aria-label="Scroll down">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 16.5c-.3 0-.5-.1-.7-.3l-6-6a1 1 0 0 1 1.4-1.4L12 14.1l5.3-5.3a1 1 0 1 1 1.4 1.4l-6 6c-.2.2-.4.3-.7.3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="eight-section" id="security">
+            <h1>Security & User Management</h1>
+            <div class="main-area">
+                <div class="main-area-left"></div>
+                <div class="main-area-center">
+                    <p>Operating systems protect the system and manage multiple users.</p>
+                    <img src="img/security.png" alt="OS User Interface">
+                    <h4>Security features include:</h4>
+                    <ul class="no-margin">
+                        <li>User accounts and passwords</li>
+                        <li>Permissions and access control</li>
+                        <li>Encryption (protecting stored data)</li>
+                        <li>Updates and patches to fix vulnerabilities</li>
+                    </ul>
+                    <p><strong>Example: </strong>A standard user account can't install system-wide software without admin permission.</p>
+                    <p class="no-margin small-text">
+                        <i><strong>Sources:</strong>
+                            The information on this page was adapted for educational purposes from
+                            <a href="https://www.tutorialspoint.com/operating_system/index.htm" target="_blank">TutorialsPoint - Operating System</a>,
+                            <a href="https://www.ibm.com/docs/en/aix/7.3?topic=concepts-operating-system-components" target="_blank">IBM Documentation - Operating System Components</a>, and
+                            <a href="https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/" target="_blank">University of Illinois OS Course Notes</a>.
+                        </i>
+                    </p>
+                </div>
+                <div class="main-area-right">
+                    <a href="#intro" class="scroll-circle go-to-top" aria-label="Go to top">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <!-- first arrow -->
+                            <path d="M12 5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 7.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                            <!-- second arrow -->
+                            <path d="M12 11c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 13.4l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                    <a href="#interface" class="scroll-circle go-back" aria-label="Go up">
+                        <svg viewBox="0 0 24 24" class="scroll-icon" aria-hidden="true">
+                            <path d="M12 7.5c.3 0 .5.1.7.3l6 6a1 1 0 1 1-1.4 1.4L12 9.9l-5.3 5.3a1 1 0 1 1-1.4-1.4l6-6c.2-.2.4-.3.7-.3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="main-area-right"></div>
+        </div>
+    </main>
+    <hr class="no-margin">
+    <footer>
+        <div>
+            CST336 Internet Programming. <br>2026&copy; Stan P<br>
+        </div>
+        <figure><img src="img/csumblogo-2.png" alt="CSUMB Logo"></figure>
+        <div>
+            <strong>Disclaimer:</strong> This content is for learning purposes only and was created with the assistance of ChatGPT and Gemini.<br>
+        </div>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" style="padding: 0 2em;">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+        </a>
+    </footer>
+</body>
+
+</html>

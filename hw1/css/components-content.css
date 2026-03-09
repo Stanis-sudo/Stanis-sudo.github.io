@@ -1,0 +1,129 @@
+main {
+  height: 100%;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  padding: 0;
+  /* Hide scrollbar - Firefox */
+  scrollbar-width: none;
+
+  /* Hide scrollbar - IE/Edge */
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar - Chrome, Safari */
+main::-webkit-scrollbar {
+  display: none;
+}
+
+main>section {
+  height: 100%;
+  position: relative;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 1em;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+main>section::-webkit-scrollbar {
+  display: none;
+}
+
+section img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+section h4 {
+  margin: 0.3em 0;
+
+}
+
+.small-text {
+  font-size: 0.8em;
+}
+.scroll-circle {
+  position: absolute;
+  bottom: 15px;
+  left: 98%;
+  transform: translateX(-50%);
+
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #209ee8;
+  text-decoration: none;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.go-to-top {
+  top: 15px;
+  bottom: auto;
+}
+
+.go-back {
+  top: 55px;
+  bottom: auto;
+}
+
+.scroll-circle:hover {
+  background: #1786cc;
+  transform: translateX(-50%) scale(1.06);
+}
+
+.scroll-icon {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.first-section {
+  background-color: WhiteSmoke;
+}
+
+.second-section {
+  background-color: MistyRose;
+}
+
+.third-section {
+  background-color: PowderBlue;
+}
+
+.fourth-section {
+  background-color: Linen;
+}
+
+.fifth-section {
+  background-color: PaleGreen;
+}
+
+.sixth-section {
+  background-color: Thistle;
+}
+
+.seventh-section {
+  background-color: LemonChiffon;
+}
+
+.eight-section {
+  background-color: SeaShell;
+}
+
+.no-margin {
+  margin: 0;
+}
