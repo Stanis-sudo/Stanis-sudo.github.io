@@ -1,40 +1,30 @@
-/* Navigation bar container */
 nav {
     display: flex;
     align-items: center;
-    background-color: #2c3e50;   /* dark background */
+    background-color: #2c3e50;
     padding: 0px 10px;
     text-align: center;
     justify-content: space-between;
 }
-
-/* nav a:first-child {
-    margin-right: auto;       /* pushes everything else away */
-    /* margin-left: auto;    
-} */
 
 .nav-links {
     display: flex;
     gap: 20px;
 }
 
-/* Remove default link styles */
 nav a {
     color: white;
     text-decoration: none;
     padding: 12px 20px;
     margin: 0 2px;
     display: inline-block;
-    font-family: Arial, sans-serif;
 }
 
-/* Hover effect */
 nav div a:hover {
     background-color: #00d1b9;
     border-radius: 5px;
 }
 
-/* Selected/active page */
 nav a.selected {
     background-color: #00d1b9;
     border-radius: 5px;
@@ -46,7 +36,6 @@ nav img {
 
 .red-hat-font {
   font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   font-weight: 500;
 }

@@ -9,10 +9,8 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0.3em;
-    /* background-color: black; */
     color: royalblue;
     overflow: hidden;
-    /* font settings */
     font-family: "Open Sans", sans-serif;
     font-weight: normal;
     font-style: normal;
