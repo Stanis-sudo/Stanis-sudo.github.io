@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link href="css/page.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="red-hat-font">
+        <a href="../index.html"><img src="img/g-logo-48x48.png" alt="Website logo"></a>
+    </nav>
+    <main>
+        <header>
+            <h1>Welcome to the Guess The Number Game!</h1>
+            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+        </header>
+        <div id="main" class="game-card">
+            <div class="guess-row">
+                <span class="one-line">Enter a guess: </span>
+                <input type="text" id="guessInput" maxlength="2" placeholder="Enter your guess">
+                <button id="btnGuess">Guess</button>
+                <button id="btnReset">Reset</button>
+            </div>
+        </div>
+<div id="previousGuessesContainer" class="game-card">
+    <div>Your Guesses:</div>
+    <div class="guesses-list">
+        <div class="guess-item"></div>
+        <div class="guess-item"></div>
+        <div class="guess-item"></div>
+        <div class="guess-item"></div>
+        <div class="guess-item"></div>
+        <div class="guess-item"></div>
+        <div class="guess-item"></div>
+    </div>
+</div>
+        <div id="feedback" class="game-card"></div>
+        <div id="scoreContainer" class="game-card">Your Score: Wins: <span id="wins">0</span>, Losses: <span id="losses">0</span></div>
+    </main>
+    <hr>
+    <footer>
+        <div>
+            CST336 Internet Programming. <br>2026&copy; Stan P<br>
+        </div>
+        <figure><img src="img/csumblogo-2.png" alt="CSUMB Logo"></figure>
+        <div>
+            <strong>Disclaimer:</strong> This content is for learning purposes only and was created with the assistance
+            of ChatGPT.<br>
+        </div>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" style="padding: 0 2em;">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+        </a>
+    </footer>
+    <script src="js/guessgame.js"></script>
+</body>
+
+</html>
