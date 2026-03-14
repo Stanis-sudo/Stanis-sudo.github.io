@@ -79,7 +79,7 @@ function checkGuess() {
         console.log(`Attempts: ${attempts}`);
     }
     if (guessResult === randomNumber) {
-        feedbackElement.textContent = `Congratulations! You've guessed the number in ${attempts} attempts!`;
+        feedbackElement.innerHTML = `<span class="sour-gummy-result">You won!</span><br> Congratulations! You've guessed the number in ${attempts} attempts!`;
         feedbackElement.style.color = 'green';
         feedbackElement.style.display = 'block';
         gamesWon++;
@@ -92,7 +92,7 @@ function checkGuess() {
     updatePreviousGuessesContainer();
     document.getElementById('previousGuessesContainer').style.display = 'block';
     if (attempts >= maxAttempts) {
-        feedbackElement.innerHTML = `Game over! <br> Sorry, you lost! <br> The correct number was ${randomNumber}.`;
+        feedbackElement.innerHTML = `<span class="sour-gummy-result">Game over!</span><br>Sorry, you lost! <br> The correct number was ${randomNumber}.`;
         feedbackElement.style.color = 'red';
         feedbackElement.style.display = 'block';
         gamesLost++;

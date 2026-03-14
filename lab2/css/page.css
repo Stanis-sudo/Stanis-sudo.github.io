@@ -94,11 +94,13 @@ hr {
 #wins{
     color: green;
     font-weight: bold;
+    font-family: "Sour Gummy", sans-serif;
 }
 
 #losses{
     color: red;
     font-weight: bold;
+    font-family: "Sour Gummy", sans-serif;
 }
 
 .guesses-list {
@@ -123,4 +125,14 @@ hr {
 
     box-sizing: border-box;
     flex: 0 0 45px;
+}
+
+.sour-gummy-result {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 2em;
+  padding-bottom: 1.7em;
 }
