@@ -93,10 +93,20 @@ hr {
 
 #wins{
     color: green;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+    font-family: "Sour Gummy", sans-serif;
+>>>>>>> 911cf64e8e1378b90f1c7e08ccd041b9a2ecf7d4
 }
 
 #losses{
     color: red;
+<<<<<<< HEAD
+=======
+    font-weight: bold;
+    font-family: "Sour Gummy", sans-serif;
+>>>>>>> 911cf64e8e1378b90f1c7e08ccd041b9a2ecf7d4
 }
 
 .guesses-list {
