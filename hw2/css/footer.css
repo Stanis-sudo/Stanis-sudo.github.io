@@ -7,6 +7,4 @@ footer {
     color: darkcyan;
     font-size: small;
     gap: 30px;
-    /* flex: 0 0 auto; /* fixed size */
-    /* padding: 5px; */
 } 
