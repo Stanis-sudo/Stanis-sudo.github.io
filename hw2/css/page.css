@@ -46,11 +46,11 @@ hr {
 }
 
 .high-score {
-    color: green;
+    color: green !important;
 }
 
 .low-score {
-    color: red;
+    color: red !important;
 }
 
 .wrong-answer {

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>US Geography Quiz</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,25 +28,24 @@
         <div class="container mt-4" id="quizSection"></div>
 
         <div id="validationFeedback" class="bg-danger text-white mb-2 mt-2 p-3 rounded-1"></div>
-        <button id="submitQuizBtn" type="button" class="btn btn-outline-primary text-nowrap mb-4">Submit Quiz</button>
-        <!-- <h2 id="conrtatulatoryMessage" class="high-score"></h2>
+        <button id="submitQuizBtn" type="button" class="btn btn-outline-primary text-nowrap m-4">Submit Quiz</button>
+        <!-- <h2 id="congratulatoryMessage" class="high-score"></h2>
         <h2 id="totalScore" class="text-info"></h2>
         <h3 id="attemptsInfo" class="text-secondary"></h3> -->
         <div class="container mt-4 mb-5" id="quizSummary">
             <div class="card text-center shadow-sm">
                 <div class="card-header bg-dark text-white">
-                    <h4 class="mb-0">Quiz Summary</h4>
+                    <h2 class="mb-0">Quiz Summary</h2>
                 </div>
                 <div class="card-body">
-                    <h2 id="conrtatulatoryMessage" class="text-success mb-3" id="conrtatulatoryMessage"></h2>
-                    <h3 id="totalScore" class="text-info" id="totalScore"></h3>
-                    <p id="attemptsInfo" class="text-secondary" id="attemptsInfo"></p>
+                    <p id="congratulatoryMessage" class="fs-2 text-success mb-4"></p>
+                    <p id="totalScore" class="fs-3 text-info"></p>
+                    <p id="attemptsInfo" class="text-secondary fs-5"></p>
                     <hr>
-                    <h5 class="text-primary" id="bestScore"></h5>
+                    <p id="bestScore" class="fs-5 text-primary pt-4"></p>
                 </div>
             </div>
-        </div>
-        <button id="resetQuizBtn" type="button" class="btn btn-outline-primary text-nowrap mb-4">Reset Quiz</button>
+            <button id="resetQuizBtn" type="button" class="btn btn-outline-primary text-nowrap m-4">Reset Quiz</button>
         </div>
     </main>
     <hr>
