@@ -9,15 +9,15 @@ let attempts = localStorage.getItem("quizAttempts") ? parseInt(localStorage.getI
 // Quiz questions data structure:
 const quizQuestions = [
     { question: "Which U.S. state has the largest population?", choices: ["California", "Texas", "Florida", "New York"], correctAnswers: ["California"], type: "radio" },
-    // { question: "Which U.S. state contains Yellowstone National Park?", choices: ["Colorado", "Wyoming", "Utah", "Montana"], correctAnswers: ["Wyoming"], type: "radio" },
-    // { question: "Which city is the capital of Illinois?", choices: ["Chicago", "Peoria", "Rockford", "Springfield"], correctAnswers: ["Springfield"], type: "radio" },
-    // { question: "Which desert covers much of southern Nevada and eastern California?", choices: ["Sonoran Desert", "Chihuahuan Desert", "Mojave Desert", "Great Basin Desert"], correctAnswers: ["Mojave Desert"], type: "radio" },
-    // { question: "Which U.S. state is home to the Grand Canyon?", choices: ["Utah", "Arizona", "Nevada", "Colorado"], correctAnswers: ["Arizona"], type: "radio" },
-    // { question: "Lake Tahoe lies on the border between California and Nevada.", choices: ["True", "False"], correctAnswers: ["True"], type: "true-false" },
-    // { question: "Which of the following states border the Gulf of Mexico?", choices: ["Texas", "Louisiana", "Mississippi", "Arkansas", "Florida"], correctAnswers: ["Texas", "Louisiana", "Mississippi", "Florida"], type: "checkbox" },
-    // { question: "What is the longest river in the United States?", correctAnswers: ["missouri"], type: "text" },
-    // { question: "How many time zones are there in the United States (including Alaska and Hawaii)?", correctAnswers: [6], type: "number" },
-    // { question: "Which U.S. state is known as the “Empire State”?", choices: ["California", "Pennsylvania", "New York", "Virginia"], correctAnswers: ["New York"], type: "dropdown" }
+    { question: "Which U.S. state contains Yellowstone National Park?", choices: ["Colorado", "Wyoming", "Utah", "Montana"], correctAnswers: ["Wyoming"], type: "radio" },
+    { question: "Which city is the capital of Illinois?", choices: ["Chicago", "Peoria", "Rockford", "Springfield"], correctAnswers: ["Springfield"], type: "radio" },
+    { question: "Which desert covers much of southern Nevada and eastern California?", choices: ["Sonoran Desert", "Chihuahuan Desert", "Mojave Desert", "Great Basin Desert"], correctAnswers: ["Mojave Desert"], type: "radio" },
+    { question: "Which U.S. state is home to the Grand Canyon?", choices: ["Utah", "Arizona", "Nevada", "Colorado"], correctAnswers: ["Arizona"], type: "radio" },
+    { question: "Lake Tahoe lies on the border between California and Nevada.", choices: ["True", "False"], correctAnswers: ["True"], type: "true-false" },
+    { question: "Which of the following states border the Gulf of Mexico?", choices: ["Texas", "Louisiana", "Mississippi", "Arkansas", "Florida"], correctAnswers: ["Texas", "Louisiana", "Mississippi", "Florida"], type: "checkbox" },
+    { question: "What is the longest river in the United States?", correctAnswers: ["missouri"], type: "text" },
+    { question: "How many time zones are there in the United States (including Alaska and Hawaii)?", correctAnswers: [6], type: "number" },
+    { question: "Which U.S. state is known as the “Empire State”?", choices: ["California", "Pennsylvania", "New York", "Virginia"], correctAnswers: ["New York"], type: "dropdown" }
 ]
 
 
