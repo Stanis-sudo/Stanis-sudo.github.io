@@ -8,6 +8,7 @@ async function init() {
     document.querySelector("#state").addEventListener("change", handleStateChange);
     document.querySelector("#username").addEventListener("change", checkUsername);
     document.querySelector("#county").addEventListener("change", resetZipCode);
+    document.querySelector("#password").addEventListener("click", renderPasswordControls);
     document.querySelector("#signupForm").addEventListener("submit", function (event) {
         validateForm(event);
     });
@@ -15,10 +16,9 @@ async function init() {
     await displayStates();
     currentSuggestedPassword = await generatePassword(12);
     // await delay(500);
-    renderPasswordControls();
+    //renderPasswordControls();
 
-    document.querySelector("#useSuggestPwdBtn").addEventListener("click", useGeneratedPassword);
-    document.querySelector("#refreshPwdBtn").addEventListener("click", refreshPassword);
+    
 }
 
 async function refreshPassword() {
@@ -52,6 +52,8 @@ function renderPasswordControls() {
 
         </div>
     `;
+    document.querySelector("#useSuggestPwdBtn").addEventListener("click", useGeneratedPassword);
+    document.querySelector("#refreshPwdBtn").addEventListener("click", refreshPassword);
 }
 
 function updatePasswordButtonText() {
