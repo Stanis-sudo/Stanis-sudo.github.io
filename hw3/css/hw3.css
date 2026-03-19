@@ -1,0 +1,56 @@
+.top-nav {
+    display: flex;
+    align-items: center;
+    position: relative; /* important for centering */
+    height: 64px;
+}
+
+.bottom-nav {
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+nav h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: white;
+    white-space: nowrap;
+}
+
+.finger-paint-regular {
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.sour-gummy {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.notice-color {
+    color: #ff6f61;
+    font-weight: 200;
+}
